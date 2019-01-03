@@ -1,27 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="styles.css">
-  <title>PHP SITE ABOUT RICK AND MORTY</title>
-</head>
-<body>
-  <header>
-    <h1>This is the header</h1>
-    <nav>
-      <ul>
-        <li><a href="index.php">About</a></li>
-        <li><a href="index.php?about">Characters</a></li>
-        <li><a href="index.php?blog">Blog</a></li>
-        <li><a href="index.php?contact">Contact</a></li>
-      </ul>
-    </nav>
-   </header>
+<?php include 'includes/header.php';?>
   <div id="content">
     <h3>Content</h2>
+    <?php
+    if(isset($_GET['about'])) {
+      include 'src/about.php';
+    }else if(isset($_GET['home'])) {
+      include 'src/home.php';
+    }else if(isset($_GET['characters'])){
+      include 'src/characters.php';
+    }else if(isset($_GET['contact'])) {
+      include 'src/contact.php';
+    }
+    ?>
   </div>
-  
-</body>
-</html>
+
+<?php include 'includes/footer.php'; ?>
