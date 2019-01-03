@@ -27,5 +27,6 @@
    }
    h1 {
     background-color: lightblue;
+    font-size: 2em;
    }
    </style>

@@ -6,7 +6,10 @@ nav,ul,li {
 nav,ul,li,a {
   text-decoration: none;
   padding: 5px 15px;
-  color: red;
+  color: grey;
+}
+nav,ul,li,a:hover {
+  color: black;
 }
 
 * {
