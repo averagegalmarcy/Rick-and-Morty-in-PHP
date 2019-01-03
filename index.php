@@ -1,6 +1,5 @@
 <?php include 'includes/header.php';?>
   <div id="content">
-    <h3>Content</h2>
     <?php
     if(isset($_GET['about'])) {
       include 'src/about.php';

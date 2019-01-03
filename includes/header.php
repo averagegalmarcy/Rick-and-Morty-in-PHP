@@ -17,6 +17,11 @@
         <li><a href="index.php?about">About</a></li>
         <li><a href="index.php?characters">Characters</a></li>
         <li><a href="index.php?contact">Contact</a></li>
+        <li>
+        <?php
+        $link_address = 'https://github.com/averagegalmarcy?tab=repositories';
+        echo "<a href='".$link_address."'>GitHub</a>"
+        ?></li>
       </ul>
     </nav>
    </header>

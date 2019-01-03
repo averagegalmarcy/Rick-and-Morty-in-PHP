@@ -2,14 +2,19 @@ nav,ul,li {
   list-style-type: none;
   display: inline-block
 }
-
+a {
+  border: solid 1pt black;
+  background-color:grey;
+  border-radius: 10px;
+}
 nav,ul,li,a {
   text-decoration: none;
   padding: 5px 15px;
-  color: grey;
+  color:white;
 }
 nav,ul,li,a:hover {
   color: black;
+
 }
 
 * {
