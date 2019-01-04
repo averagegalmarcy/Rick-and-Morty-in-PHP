@@ -1,7 +1,6 @@
 <html>
   <body>
     <?php
-    echo '<img src="https://www.syfy.com/sites/syfy/files/2017/12/pickle-rick-rick-and-mortyjpg_0.jpeg">';
     echo "<h2> Rick and Morty Ispum </h2> <br></br>"; 
     echo '<p>Your blood will be my lotion! These 2 halves don\'t belong together, 
     bitch! Well look where being smart got you. The fucking amish bitch shot me!
@@ -20,12 +19,24 @@
 <style scoped type="text/css">
 h2 {
   text-decoration: underline;
+  color: black;
+  text-shadow: 1pt 1pt 1pt purple;
+  z-index: 10;
+  font-size: 20pt;
 }
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50%;
-  width: 50%;
+p {
+  color: white;
+  text-shadow: 1pt 1pt 1pt purple;
+  z-index: 10;
+  font-size: 20pt;
+}
+body {
+  background-image: url('https://animesuperhero.com/fansites/blogicon/56782/master/1466625323.jpg'); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 </style>

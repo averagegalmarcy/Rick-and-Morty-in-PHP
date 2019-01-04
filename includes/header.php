@@ -32,6 +32,8 @@
    }
    h1 {
     background-color: lightblue;
+    color: black;
+    text-shadow: 1pt 3pt 1pt white;
     font-size: 2em;
    }
    </style>
